@@ -138,7 +138,7 @@ border: 2px solid #000;
   margin-bottom: 8px; 
     line-height: 1.5;
     display: -webkit-box;
-      -webkit-line-clamp: 2; /* 設定顯示 2 行 */
+      line-clamp: 2; /* 設定顯示 2 行 */
       -webkit-box-orient: vertical;
       overflow: hidden;
   }
@@ -175,7 +175,7 @@ border: 2px solid #000;
   
   .page a{
     display: inline-block;
-    text-size: 16px;
+    font-size: 16px;
     box-sizing: border-box;
     width: 40px;
     height: 40px;
